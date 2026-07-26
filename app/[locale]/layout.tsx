@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Fraunces, Instrument_Sans, JetBrains_Mono } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -109,7 +110,13 @@ export default async function LocaleLayout({
             </div>
           </header>
 
-          {/* ADSENSE_SLOT_HEADER: Insertar aquí el <script> de Google AdSense y el bloque de anuncio de cabecera. No colocar el código real todavía. */}
+          {/* ADSENSE_SLOT_HEADER: script de verificación/carga de Google AdSense */}
+          <Script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6200408625825852"
+            crossOrigin="anonymous"
+            strategy="afterInteractive"
+          />
 
           <div className="mx-auto grid w-full max-w-7xl flex-1 gap-8 px-4 py-10 sm:px-6 lg:grid-cols-[minmax(0,1fr)_300px] lg:py-14">
             <main className="min-w-0">{children}</main>
