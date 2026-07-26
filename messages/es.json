@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "Calculadora de Closing Costs en EE. UU. 2026 | MyClosingCosts",
+    "description": "Estima el transfer tax, el title insurance, los honorarios de registro y de escrow al comprar una casa en Texas, Florida, California, Arizona o Georgia — o cambia a México para estimar el ISAI y los honorarios notariales. Gratis, instantáneo y actualizado para 2026.",
+    "ogTitle": "Calculadora de Closing Costs en EE. UU. 2026",
+    "ogDescription": "Estima al instante el transfer tax, el title insurance y el total de closing costs al comprar una casa en EE. UU., o los gastos de escrituración en México."
+  },
+  "header": {
+    "tagline": "Gastos de cierre, sin sorpresas",
+    "languageLabel": "Idioma"
+  },
+  "home": {
+    "h1": "Calculadora de Closing Costs en EE. UU. 2026",
+    "intro": "Estima en segundos el transfer tax, el title insurance y el total de closing costs para Texas, Florida, California, Arizona o Georgia — pagando de contado o financiando con hipoteca. Cambia el selector de país a México para estimar los gastos de escrituración (ISAI, honorarios notariales y más).",
+    "sections": {
+      "whatAreClosingCosts": {
+        "title": "¿Qué son los closing costs?",
+        "body": "Los closing costs son los honorarios e impuestos que pagas, además del precio de compra, para transferir legalmente la propiedad de una casa. En Estados Unidos, los compradores suelen pagar title insurance, honorarios de registro (recording fees), honorarios de escrow o de abogado, y —según el estado y a veces el condado o la ciudad— un transfer tax. Si financias la compra, tu prestamista también cobrará una comisión de originación. Estos costos son independientes de tu enganche y normalmente se pagan por completo el día del cierre, por lo que presupuestarlos con anticipación evita sorpresas de último momento."
+      },
+      "whatsIncluded": {
+        "title": "¿Qué incluye el total de closing costs?",
+        "body": "El total varía según el estado porque cada uno regula estos cargos de forma distinta. El transfer tax se cobra en la mayoría de los estados como un porcentaje del precio de venta, aunque Texas y Arizona no cobran ninguno, mientras que otros —como Florida y especialmente California— permiten que los condados e incluso ciudades individuales agreguen su propio impuesto sobre la tasa estatal. El title insurance protege al comprador y al prestamista contra defectos en el título de la propiedad, y su precio se fija mediante tablas reguladas por el estado (como en Texas y Florida) o por la aseguradora (como en California). Los recording fees cubren el registro de la escritura ante el condado. Los honorarios de escrow o de abogado pagan a la parte neutral que administra los documentos y los fondos durante el cierre —algunos estados, como Georgia, exigen por ley que un abogado licenciado se encargue de esto. Si usas una hipoteca, espera una comisión adicional de originación por parte de tu prestamista."
+      },
+      "howToUse": {
+        "title": "Cómo usar esta calculadora",
+        "body": "Selecciona un país, luego un estado o región, ingresa el precio de venta de la propiedad y elige si pagarás de contado o financiarás con una hipoteca. El desglose y el total se actualizan al instante, junto con el porcentaje del precio de venta que representan estos costos, para que puedas planear tu presupuesto con confianza."
+      },
+      "mexicoNote": {
+        "title": "¿Cuánto cuesta comprar una casa en México?",
+        "body": "¿Vas a comprar una propiedad del otro lado de la frontera? Cambia el selector de país a México. Ahí el cierre se llama escrituración, y en lugar de transfer tax y title insurance presupuestarás el ISAI (el impuesto de adquisición de inmuebles de México), honorarios notariales progresivos, un avalúo comercial y derechos de Registro Público —con una posible exención de ISAI si es tu primera vivienda. Selecciona Ciudad de México, Estado de México, Jalisco o Nuevo León para ver el desglose completo."
+      }
+    }
+  },
+  "calculator": {
+    "formTitle": "Datos de tu compra",
+    "formSubtitle": "Ajusta los valores y el resultado se actualiza al instante.",
+    "countryLabel": "País",
+    "countryOptions": {
+      "US": "Estados Unidos",
+      "MX": "México"
+    },
+    "regionLabel": {
+      "US": "Estado",
+      "MX": "Estado / Región"
+    },
+    "propertyValueLabel": "Precio de compra de la propiedad",
+    "paymentMethodLabel": "Forma de pago",
+    "paymentOptions": {
+      "US": { "contado": "Contado", "credito": "Hipoteca" },
+      "MX": { "contado": "Contado", "credito": "Crédito hipotecario" }
+    },
+    "firstHomeLabel": "Es mi primera vivienda",
+    "firstHomeHelp": "Puede aplicar exención total o parcial de ISAI según el estado",
+    "resultsTitle": "Desglose estimado de closing costs",
+    "resultsSubtitle": "Estimación de referencia para {region}.",
+    "regionNames": {
+      "us-tx": "Texas",
+      "us-fl": "Florida",
+      "us-ca": "California",
+      "us-az": "Arizona",
+      "us-ga": "Georgia",
+      "mx-cdmx": "Ciudad de México",
+      "mx-edomex": "Estado de México",
+      "mx-jalisco": "Jalisco",
+      "mx-nuevoLeon": "Nuevo León"
+    },
+    "labels": {
+      "us": {
+        "transferTax": "Transfer tax",
+        "transferTaxHelpRate": "{rate}% de transfer tax estatal sobre la escritura",
+        "transferTaxHelpNone": "Este estado no cobra transfer tax estatal sobre bienes raíces",
+        "titleInsurance": "Title insurance",
+        "titleInsuranceHelp": "Prima de la póliza del comprador (aprox.)",
+        "recordingFees": "Honorarios de registro (recording fees)",
+        "recordingFeesHelp": "Cargos de registro del condado",
+        "escrowAttorneyFees": "Honorarios de escrow / abogado",
+        "escrowAttorneyFeesHelp": "Honorarios de cierre (settlement)",
+        "mortgageOrigination": "Originación de la hipoteca",
+        "mortgageOriginationHelp": "Comisión estimada de originación del prestamista"
+      },
+      "mx": {
+        "isai": "ISAI (Impuesto Sobre Adquisición de Inmuebles)",
+        "isaiHelpExempt": "Exento por ser primera vivienda",
+        "isaiHelpRate": "{rate}% sobre el valor de la propiedad",
+        "honorariosNotariales": "Honorarios notariales",
+        "honorariosNotarialesHelp": "Tabla progresiva del notario según el valor de la operación",
+        "avaluo": "Avalúo",
+        "avaluoHelp": "Avalúo comercial requerido para la escritura",
+        "registroPublico": "Registro Público",
+        "registroPublicoHelp": "Inscripción del inmueble a tu nombre",
+        "otrosFijos": "Otros gastos y certificados",
+        "otrosFijosHelp": "Certificado de libertad de gravamen, no adeudo, avisos notariales, RFC",
+        "gastosCredito": "Gastos de crédito hipotecario",
+        "gastosCreditoHelp": "Inscripción de hipoteca, avalúo bancario y comisión de apertura (estimado)"
+      }
+    },
+    "totalLabel": "Total estimado de closing costs",
+    "percentageLabel": "% sobre el valor de la propiedad",
+    "disclaimerUS": "Costos estimados únicamente. Los costos reales varían según el condado y el prestamista — consulta con una compañía de títulos o abogado inmobiliario.",
+    "disclaimerMX": "Esta calculadora ofrece una estimación con fines informativos y no sustituye la cotización oficial de una notaría. Las tasas de ISAI, aranceles notariales y derechos de Registro Público cambian cada año y pueden variar por municipio."
+  },
+  "faq": {
+    "heading": "Preguntas frecuentes",
+    "items": [
+      {
+        "question": "¿Qué son los closing costs al comprar una casa en EE. UU.?",
+        "answer": "Los closing costs son el conjunto de honorarios e impuestos —incluyendo title insurance, recording fees, honorarios de escrow o de abogado, transfer tax donde aplica, y comisiones del prestamista si financias— que pagas para formalizar la compra de una casa. Son independientes de tu enganche y normalmente se pagan el día del cierre."
+      },
+      {
+        "question": "¿Texas y Arizona cobran transfer tax sobre bienes raíces?",
+        "answer": "No. Texas y Arizona son dos de los pocos estados que prohíben por completo el transfer tax sobre bienes raíces, ya sea estatal, de condado o de ciudad. Otros estados, como Florida y California, sí lo cobran —y en California, las ciudades pueden agregar su propio impuesto sobre la tasa del condado."
+      },
+      {
+        "question": "¿Cuánto cuesta el title insurance?",
+        "answer": "Depende del estado y del precio de compra. Estados como Texas y Florida usan tablas de tarifas reguladas por el departamento de seguros, por lo que el precio es bastante consistente entre aseguradoras. En estados como California, las tarifas no las fija el estado y varían según la aseguradora y la región. Como estimación general, considera entre 0.4% y 0.6% del valor de la propiedad."
+      },
+      {
+        "question": "¿Los closing costs cambian si pago de contado o con hipoteca?",
+        "answer": "Sí. Financiar agrega una comisión de originación del prestamista —y en algunos estados un impuesto adicional relacionado con la hipoteca— sobre los closing costs que pagarías en una compra de contado, por lo que las compras financiadas suelen costar más en el cierre como porcentaje del valor de la vivienda."
+      },
+      {
+        "question": "¿Cuánto debo presupuestar en total para closing costs?",
+        "answer": "Como regla general, presupuesta entre 2% y 5% del precio de compra si es de contado, y un poco más —entre 3% y 6%— si financias con hipoteca. El monto exacto depende del estado, el condado y la ciudad, ya que el transfer tax en particular puede variar mucho según la ubicación."
+      },
+      {
+        "question": "¿Cuánto cuesta comprar una casa en México?",
+        "answer": "En México, el total de gastos de escrituración —ISAI, honorarios notariales, avalúo y derechos de Registro Público— suele representar entre 5% y 8% del valor de la propiedad en compras de contado, y entre 7% y 10% si se financia con crédito hipotecario, aunque varía según el estado y si aplica una exención de ISAI por primera vivienda."
+      }
+    ]
+  },
+  "footer": {
+    "text": "© {year} {siteName}. Estimaciones con fines informativos únicamente — no constituyen asesoría fiscal, legal ni financiera."
+  }
+}

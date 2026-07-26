@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "title": "US Closing Costs Calculator 2026 | MyClosingCosts",
+    "description": "Estimate transfer tax, title insurance, recording and escrow fees when buying a home in Texas, Florida, California, Arizona or Georgia — or switch to Mexico to estimate ISAI and notary fees. Free, instant, updated for 2026.",
+    "ogTitle": "US Closing Costs Calculator 2026",
+    "ogDescription": "Instantly estimate transfer tax, title insurance, and total closing costs when buying a home in the US, or escrituración costs in Mexico."
+  },
+  "header": {
+    "tagline": "Closing costs, no surprises",
+    "languageLabel": "Language"
+  },
+  "home": {
+    "h1": "US Closing Costs Calculator 2026",
+    "intro": "Estimate transfer tax, title insurance, and total closing costs in seconds for Texas, Florida, California, Arizona, or Georgia — paying cash or financing with a mortgage. Switch the country selector to Mexico to estimate escrituración costs (ISAI, notary fees, and more).",
+    "sections": {
+      "whatAreClosingCosts": {
+        "title": "What Are Closing Costs?",
+        "body": "Closing costs are the fees and taxes you pay, on top of the purchase price, to legally transfer ownership of a home. In the United States, buyers typically pay for title insurance, recording fees, escrow or attorney fees, and — depending on the state and sometimes the county or city — a real estate transfer tax. If you're financing the purchase, your lender will also charge an origination fee. These costs are separate from your down payment and are usually due in full at the closing table, so budgeting for them ahead of time helps you avoid last-minute surprises."
+      },
+      "whatsIncluded": {
+        "title": "What's Included in Total Closing Costs?",
+        "body": "The total varies by state because each one regulates these fees differently. Transfer tax is charged in most states as a percentage of the sale price, though Texas and Arizona charge none at all, while others — like Florida and especially California — let counties and even individual cities add their own tax on top of the state rate. Title insurance protects the buyer and lender against defects in the property's title, and is priced either by state-regulated rate tables (as in Texas and Florida) or by the insurer (as in California). Recording fees cover filing the deed with the county. Escrow or attorney fees pay for the neutral party who manages the paperwork and funds at closing — some states, like Georgia, legally require a licensed attorney to handle this. If you use a mortgage, expect an additional loan origination fee from your lender."
+      },
+      "howToUse": {
+        "title": "How to Use This Calculator",
+        "body": "Select a country, then a state or region, enter the property's sale price, and choose whether you're paying cash or financing with a mortgage. The breakdown and total update instantly, along with the percentage of the sale price these costs represent, so you can plan your budget with confidence."
+      },
+      "mexicoNote": {
+        "title": "How Much Does It Cost to Buy a House in Mexico?",
+        "body": "Buying property south of the border instead? Switch the country selector to Mexico. Closing there is called escrituración, and instead of transfer tax and title insurance you'll budget for ISAI (Mexico's property acquisition tax), progressive notary fees, a commercial appraisal, and Public Registry fees — with a possible ISAI exemption if it's your first home. Select Mexico City, State of Mexico, Jalisco, or Nuevo León to see the full breakdown."
+      }
+    }
+  },
+  "calculator": {
+    "formTitle": "Your purchase details",
+    "formSubtitle": "Adjust the values and the result updates instantly.",
+    "countryLabel": "Country",
+    "countryOptions": {
+      "US": "United States",
+      "MX": "Mexico"
+    },
+    "regionLabel": {
+      "US": "State",
+      "MX": "State / Region"
+    },
+    "propertyValueLabel": "Property purchase price",
+    "paymentMethodLabel": "Payment method",
+    "paymentOptions": {
+      "US": { "contado": "Cash", "credito": "Mortgage" },
+      "MX": { "contado": "Cash (contado)", "credito": "Mortgage (crédito)" }
+    },
+    "firstHomeLabel": "This is my first home",
+    "firstHomeHelp": "May qualify for a full or partial ISAI exemption depending on the state",
+    "resultsTitle": "Estimated closing cost breakdown",
+    "resultsSubtitle": "Reference estimate for {region}.",
+    "regionNames": {
+      "us-tx": "Texas",
+      "us-fl": "Florida",
+      "us-ca": "California",
+      "us-az": "Arizona",
+      "us-ga": "Georgia",
+      "mx-cdmx": "Mexico City",
+      "mx-edomex": "State of Mexico",
+      "mx-jalisco": "Jalisco",
+      "mx-nuevoLeon": "Nuevo León"
+    },
+    "labels": {
+      "us": {
+        "transferTax": "Transfer tax",
+        "transferTaxHelpRate": "{rate}% state-level transfer tax on the deed",
+        "transferTaxHelpNone": "This state charges no state-level real estate transfer tax",
+        "titleInsurance": "Title insurance",
+        "titleInsuranceHelp": "Owner's policy premium (approx.)",
+        "recordingFees": "Recording fees",
+        "recordingFeesHelp": "County recording / filing fees",
+        "escrowAttorneyFees": "Escrow / attorney fees",
+        "escrowAttorneyFeesHelp": "Closing settlement fees",
+        "mortgageOrigination": "Mortgage origination",
+        "mortgageOriginationHelp": "Estimated lender origination fee"
+      },
+      "mx": {
+        "isai": "ISAI (Property Acquisition Tax)",
+        "isaiHelpExempt": "Exempt as a first home",
+        "isaiHelpRate": "{rate}% of the property value",
+        "honorariosNotariales": "Notary fees",
+        "honorariosNotarialesHelp": "Progressive notary fee table based on property value",
+        "avaluo": "Appraisal",
+        "avaluoHelp": "Commercial appraisal required for the deed",
+        "registroPublico": "Public Registry",
+        "registroPublicoHelp": "Recording the property in your name",
+        "otrosFijos": "Other fees & certificates",
+        "otrosFijosHelp": "Lien-free certificate, no-debt certificate, notarial notices, tax ID",
+        "gastosCredito": "Mortgage-related costs",
+        "gastosCreditoHelp": "Mortgage recording, bank appraisal, and origination fee (estimated)"
+      }
+    },
+    "totalLabel": "Estimated total closing costs",
+    "percentageLabel": "% of property value",
+    "disclaimerUS": "Estimated costs only. Actual closing costs vary by county and lender — consult a licensed title company or real estate attorney for exact figures.",
+    "disclaimerMX": "This calculator provides an estimate for informational purposes only and does not replace an official quote from a notary. ISAI rates, notary fees, and Public Registry fees change every year and can vary by municipality."
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "items": [
+      {
+        "question": "What are closing costs when buying a house in the US?",
+        "answer": "Closing costs are the combined fees and taxes — including title insurance, recording fees, escrow or attorney fees, transfer tax where it applies, and lender fees if you finance — that you pay to finalize the purchase of a home. They're separate from your down payment and are typically due at the closing table."
+      },
+      {
+        "question": "Do Texas and Arizona charge a real estate transfer tax?",
+        "answer": "No. Texas and Arizona are two of the few states that prohibit real estate transfer taxes altogether, at the state, county, or city level. Other states, like Florida and California, do charge one — and in California, cities can add their own tax on top of the county rate."
+      },
+      {
+        "question": "How much does title insurance cost?",
+        "answer": "It depends on the state and the purchase price. States like Texas and Florida use insurance-department-regulated rate tables, so pricing is largely consistent across title companies. In states like California, rates aren't state-set and vary by insurer and region. As a rough estimate, expect around 0.4%–0.6% of the property value."
+      },
+      {
+        "question": "Do closing costs change if I pay cash vs. get a mortgage?",
+        "answer": "Yes. Financing adds a lender origination fee — and in some states an additional mortgage-related tax — on top of the closing costs you'd pay in an all-cash purchase, so financed purchases typically cost more at closing as a percentage of the home's value."
+      },
+      {
+        "question": "How much should I budget in total for closing costs?",
+        "answer": "As a general rule, budget 2%–5% of the purchase price for a cash purchase, and slightly more — often 3%–6% — if you're financing with a mortgage. The exact amount depends on the state, county, and city, since transfer tax in particular can vary significantly by location."
+      },
+      {
+        "question": "How much does it cost to buy a house in Mexico?",
+        "answer": "In Mexico, total escrituración costs — ISAI, notary fees, appraisal, and Public Registry fees — typically run between 5% and 8% of the property's value for cash purchases, and 7%–10% if financed with a mortgage, though this varies by state and whether a first-home ISAI exemption applies."
+      }
+    ]
+  },
+  "footer": {
+    "text": "© {year} {siteName}. Estimates for informational purposes only — not tax, legal, or financial advice."
+  }
+}
